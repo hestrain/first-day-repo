@@ -17,3 +17,9 @@
     background-color: darkorange;
 }
 
+.imagecorners {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
