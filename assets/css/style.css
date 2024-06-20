@@ -1,25 +1,93 @@
+body{
+    background-color: black;
+}
+
+/* formatting that im applying to most of the document */
 .lesson {
-    background-color: lemonchiffon;
+    width: 450px;
+    padding-left: 20px;
 }
 
+/* specific backgound color box for the main title */
+.box {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(13, 134, 66);
+    border: #9C59D1 5px solid;
+    padding-left: 20px;
+}
+
+/* formatting to apply to all titles */
 .title {
-    color: darkblue;
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* formatting to apply to the background of my links */
+.link {
+    width: 200px;
+    background-color: grey;
+}
+
+/* formatting for email link*/
 #Email {
-    background-color: goldenrod;
+    background-color: #FCF434;
+    color: black;
 }
+
+/* formatting for github link*/
 #Github {
-    background-color: lightsteelblue;
+    background-color: #FFFFFF;
+    color: black;
 }
 
+/* formatting for portfolio link */
 #Portfolio {
-    background-color: darkorange;
+    background-color: #9C59D1;
+    color: white;
 }
 
+/* to make the image the right size, with rounded corners */
 .imagecorners {
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     height: 200px;
     width: 200px;
+}
+
+/* formatting for my pronouns section */
+.pronoun {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 185, 190);
+}
+
+/* formatting for the conctact sectin */
+.contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: pink;
+}
+
+/* formatting for bio section */
+#bio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+/* formatting applyign to all ul items */
+ul {
+    color: pink;
+}
+
+/* specific backgound color box for the main title */
+.box2 {
+    height: 30px;
+    width: 160px;
+    background-color: rgb(13, 134, 66);
+    border: #9C59D1 5px solid;
+    padding-left: 20px;
+}
+
+img{
+    border: darkred solid 5px;
 }
